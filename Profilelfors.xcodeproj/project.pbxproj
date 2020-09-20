@@ -15,6 +15,10 @@
 		F97B53F425175177001E934A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97B53F225175177001E934A /* LaunchScreen.storyboard */; };
 		F97B53FF25175177001E934A /* ProfilelforsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53FE25175177001E934A /* ProfilelforsTests.swift */; };
 		F97B540A25175178001E934A /* ProfilelforsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B540925175178001E934A /* ProfilelforsUITests.swift */; };
+		F97B541F2517525B001E934A /* appleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F97B541B2517525B001E934A /* appleImage.jpg */; };
+		F97B54202517525B001E934A /* philImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F97B541C2517525B001E934A /* philImage.jpg */; };
+		F97B54212517525B001E934A /* trackImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F97B541D2517525B001E934A /* trackImage.jpg */; };
+		F97B54222517525B001E934A /* flightImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F97B541E2517525B001E934A /* flightImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F97B540525175178001E934A /* ProfilelforsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfilelforsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97B540925175178001E934A /* ProfilelforsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilelforsUITests.swift; sourceTree = "<group>"; };
 		F97B540B25175178001E934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97B541B2517525B001E934A /* appleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleImage.jpg; sourceTree = "<group>"; };
+		F97B541C2517525B001E934A /* philImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = philImage.jpg; sourceTree = "<group>"; };
+		F97B541D2517525B001E934A /* trackImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trackImage.jpg; sourceTree = "<group>"; };
+		F97B541E2517525B001E934A /* flightImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flightImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		F97B53E625175173001E934A /* Profilelfors */ = {
 			isa = PBXGroup;
 			children = (
+				F97B541A2517525B001E934A /* profile */,
 				F97B53E725175173001E934A /* AppDelegate.swift */,
 				F97B53E925175173001E934A /* SceneDelegate.swift */,
 				F97B53EB25175173001E934A /* ViewController.swift */,
@@ -126,6 +135,17 @@
 				F97B540B25175178001E934A /* Info.plist */,
 			);
 			path = ProfilelforsUITests;
+			sourceTree = "<group>";
+		};
+		F97B541A2517525B001E934A /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				F97B541B2517525B001E934A /* appleImage.jpg */,
+				F97B541C2517525B001E934A /* philImage.jpg */,
+				F97B541D2517525B001E934A /* trackImage.jpg */,
+				F97B541E2517525B001E934A /* flightImage.jpg */,
+			);
+			path = profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,11 @@
 			files = (
 				F97B53F425175177001E934A /* LaunchScreen.storyboard in Resources */,
 				F97B53F125175177001E934A /* Assets.xcassets in Resources */,
+				F97B54222517525B001E934A /* flightImage.jpg in Resources */,
+				F97B541F2517525B001E934A /* appleImage.jpg in Resources */,
 				F97B53EF25175173001E934A /* Main.storyboard in Resources */,
+				F97B54202517525B001E934A /* philImage.jpg in Resources */,
+				F97B54212517525B001E934A /* trackImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
